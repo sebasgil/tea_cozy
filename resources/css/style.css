@@ -32,8 +32,7 @@ body {
 }
 
 #teamonth {
-  border: 1px dashed yellow;
-  height: 635px;
+  height: 700px;
   width: 1000px;
 }
 
@@ -41,22 +40,17 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  border: 1px dashed orange;
-
 }
 
 #teamonth .teatypes-bottom {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  border: 1px dashed orange;
-
 }
 
 #teamonth .box {
   min-width: 300px;
   min-height: 200px;
-  border: 1px dashed red;
   margin: 10px;
   display: flex;
   flex-direction: column;
@@ -69,7 +63,6 @@ body {
 }
 
 #teamonth .box h4 {
-  border: 1px dashed green;
   margin-top: 10px;
   margin-bottom: 0px;
   margin-left: 0px;
