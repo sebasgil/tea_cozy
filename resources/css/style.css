@@ -33,7 +33,7 @@ body {
 
 #teamonth {
   border: 1px dashed yellow;
-  height: 600px;
+  height: 635px;
   width: 1000px;
 }
 
@@ -53,10 +53,25 @@ body {
 
 }
 
-
 #teamonth .box {
   min-width: 300px;
   min-height: 200px;
   border: 1px dashed red;
   margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#teamonth .box img {
+  max-width: 300px;
+  max-height: 200px;
+}
+
+#teamonth .box h4 {
+  border: 1px dashed green;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
