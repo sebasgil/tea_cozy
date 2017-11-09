@@ -1,11 +1,37 @@
-/*header {
+header {
   height: 69px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
   position: fixed;
   z-index: 10;
-}*/
+  margin: 0px;
+  top: 0px;
+  background-color: black;
+}
 
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
 
 body {
+  position: relative;
+  margin: 0px;
+  top: 70px;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
