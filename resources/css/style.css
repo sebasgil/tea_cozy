@@ -94,3 +94,16 @@ body {
   width: 300px;
   margin: 0px 40px;
 }
+
+footer {
+  width: 100%;
+}
+
+footer .centered-content {
+  height: 200px;
+}
+
+footer .copyright {
+  text-align: left;
+  margin-left: 20px;
+}
