@@ -68,3 +68,29 @@ body {
   margin-left: 0px;
   margin-right: 0px;
 }
+
+#locations {
+  background-image: url("img-locations-background.jpg");
+  background-position: 0% 25%;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 1200px;
+}
+
+#locations .location-top h2 {
+  margin-bottom: 15px;
+}
+
+#locations .location-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+#locations .box {
+  opacity: 1;
+  background-color: black;
+  height: 260px;
+  width: 300px;
+  margin: 0px 40px;
+}
